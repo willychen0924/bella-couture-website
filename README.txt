@@ -2,7 +2,8 @@ Bella Couture Website Design
 
 白色版：white/index.html
 根目錄首頁自動進入白色版。
-未來 V2 將放在 v2/，與白色版共用同一個儲存庫，使用獨立網址。
+V2 酒紅版：v2/index.html
+兩版共用同一個儲存庫，各有獨立網址與素材。
 
 靜態 HTML / CSS / JavaScript，無建置步驟。
 GitHub Pages：main 分支、根目錄 /。

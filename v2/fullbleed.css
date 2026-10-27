@@ -1,0 +1,19 @@
+.collection-head{display:block;position:relative;margin:0;height:420px;min-height:420px;overflow:hidden}
+.collection-image{position:absolute;inset:0;width:100%;height:420px;background:#fff}
+.collection-image img{width:100%;height:100%;object-fit:cover;object-position:center 50%}
+.collection-copy{position:relative;z-index:2;padding:36px 0 25px 82px;width:580px}
+.collection-copy h1{font-size:108px;margin:12px 0 20px}
+.collection-copy h2{font-size:25px}.collection-copy p{margin-top:17px;color:var(--muted)}
+.collection-image .small{left:auto;right:48px;bottom:18px;font-size:8px;color:var(--muted)}
+.story-opening{display:block;position:relative;padding:0;margin:0;height:690px;overflow:hidden}
+.story-opening .portrait{position:absolute;inset:0;width:100%;height:690px}
+.story-opening .portrait img{width:100%;height:100%;object-fit:cover;object-position:center;filter:none}
+.story-opening .portrait:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(248,245,239,.96) 0%,rgba(248,245,239,.92) 28%,rgba(248,245,239,.66) 45%,rgba(248,245,239,.08) 66%,transparent 76%)}
+.story-opening>div:first-child{position:relative;z-index:2;max-width:660px;padding:49px 0 35px 82px}
+.story-opening h1{font-size:84px;line-height:1.04;margin:23px 0}
+.story-opening h2{font-size:26px;line-height:1.65;margin:20px 0}
+.story-opening p{font-size:13px;max-width:375px;color:var(--muted)}
+.story-opening .signature{font-size:32px;margin-top:25px}
+.story-opening .portrait .label{z-index:1;left:auto;right:48px;bottom:24px;font-size:8px}
+
+.collection-copy h1{line-height:1;letter-spacing:-.05em}.collection-copy .eyebrow{font-size:10px}.collection-copy p{font-size:13px;line-height:2;max-width:370px;margin-bottom:0}.story-opening>div:first-child>.eyebrow:first-child{font-size:10px}.story-opening p{line-height:2.1}
