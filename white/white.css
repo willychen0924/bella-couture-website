@@ -1,0 +1,28 @@
+:root{--paper:#fff;--ink:#303833;--wine:#3b4d43;--muted:#707871;--line:#e0e4df;--pink:#f7f8f6;--gold:#989e97}
+body,.masthead,.section,.footer,.program,.gift-section,.story-intro,.story-quote,.journey,.press,.macro,.visit{background:#fff}
+.announcement{background:#fff;color:#707871;border-bottom:1px solid #eceeeb}
+.masthead{border-color:var(--line)}.masthead nav,.rightnav{color:#48534b}
+.program{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.movement{border-color:var(--line)}.card .photo{background:#f6f6f4}.card .photo img{opacity:1}
+.visit{color:var(--ink);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.visit p,.visit .eyebrow{color:var(--muted)}.visit .button{color:var(--wine);border-color:#a6afa7;background:transparent}
+.story-quote{color:var(--ink);border:1px solid var(--line)}.story-quote .quote .en{color:var(--wine)}
+.press{border-top:1px solid var(--line)}.press-items article{border-color:var(--line)}
+.macro{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.collection-head{display:block;position:relative;margin:0;height:420px;min-height:420px;overflow:hidden}
+.collection-image{position:absolute;inset:0;width:100%;height:420px;background:#fff}
+.collection-image img{width:100%;height:100%;object-fit:cover;object-position:center 50%}
+.collection-copy{position:relative;z-index:2;padding:36px 0 25px 82px;width:580px}
+.collection-copy h1{font-size:108px;margin:12px 0 20px}
+.collection-copy h2{font-size:25px}.collection-copy p{margin-top:17px;color:#626c64}
+.collection-image .small{left:auto;right:48px;bottom:18px;font-size:8px;color:#707871}
+.story-opening{display:block;position:relative;padding:0;margin:0;height:690px;overflow:hidden}
+.story-opening .portrait{position:absolute;inset:0;width:100%;height:690px}
+.story-opening .portrait img{width:100%;height:100%;object-fit:cover;object-position:center;filter:none}
+.story-opening .portrait:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.96) 0%,rgba(255,255,255,.92) 28%,rgba(255,255,255,.66) 45%,rgba(255,255,255,.08) 66%,transparent 76%)}
+.story-opening>div:first-child{position:relative;z-index:2;max-width:660px;padding:49px 0 35px 82px}
+.story-opening h1{font-size:84px;line-height:1.04;margin:23px 0}
+.story-opening h2{font-size:26px;line-height:1.65;margin:20px 0}
+.story-opening p{font-size:13px;max-width:375px;color:#626c64}
+.story-opening .signature{font-size:32px;margin-top:25px}
+.story-opening .portrait .label{z-index:1;left:auto;right:48px;bottom:24px;font-size:8px}
